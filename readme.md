@@ -2,7 +2,6 @@
 
 ## 👨‍💻 About Me
 
-#About me
 I am a student interested in coding and technology. Here you’ll find a collection of my projects, along with details about my programming language skills.
 
 ## 🚀 Programming Languages Skills
