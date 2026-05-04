@@ -1,5 +1,10 @@
 # dqnx988
 
+## 👨‍💻 About Me
+
+#About me
+I am a student interested in coding and technology. Here you’ll find a collection of my projects, along with details about my programming language skills.
+
 ## 🚀 Programming Languages Skills
 
 | Language       | Level        |
@@ -8,3 +13,5 @@
 | CSS         | Intermediate |
 | JavaScript  | Basic        |
 | Python      | Basic        |
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dqnx19)
