@@ -12,5 +12,3 @@ I am a student interested in coding and technology. Here you’ll find a collect
 | CSS         | Intermediate |
 | JavaScript  | Basic        |
 | Python      | Basic        |
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dqnx19)
