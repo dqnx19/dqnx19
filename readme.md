@@ -12,3 +12,6 @@ I am a student interested in coding and technology. Here you’ll find a collect
 | CSS         | Intermediate |
 | JavaScript  | Basic        |
 | Python      | Basic        |
+
+## 📁 Repositories
+* [NetherOS](https://github.com/dqnx19/nether-os)
