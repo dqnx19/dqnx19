@@ -6,7 +6,7 @@ setFavicon("img/icons/favicon.png")
 
 importCSSFromList([
     "https://web-ui.nether.click/components/css/logo.css",
-    "https://modern-web.nether.click/fonts/lexend/lexend.css",
+    "https://web-ui.nether.click/fonts/lexend/lexend.css",
     "https://web-ui.nether.click/components/css/body.css",
     "https://web-ui.nether.click/components/css/header.css",
     "https://web-ui.nether.click/components/css/headings.css",
@@ -66,9 +66,9 @@ function showAbout() {
         <section>
             <div class="tabs-switching">
                 <div class="tabs">
-                    <button class="tab active" onclick="showTab('who_i_am', this)">Who I am</button>
-                    <button class="tab" onclick="showTab('contact', this)">Contact</button>
-                    <button class="tab" onclick="showTab('programming_languages_skills', this)">Programming Languages Skills</button>
+                    <button class="tab active" onclick="showTab('who_i_am')" data-tab="who_i_am">Who I am</button>
+                    <button class="tab" onclick="showTab('contact')" data-tab="contact">Contact</button>
+                    <button class="tab" onclick="showTab('programming_languages_skills')" data-tab="programming_languages_skills">Programming Languages Skills</button>
                 </div>
 
                 <div class="tab-content active" id="who_i_am">
