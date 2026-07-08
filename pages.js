@@ -5,19 +5,26 @@ setAttribute("html", "lang", "en")
 setFavicon("img/icons/favicon.png")
 
 importCSSFromList([
-    "https://web-ui.nether.click/components/css/logo.css",
     "https://web-ui.nether.click/fonts/lexend/lexend.css",
-    "https://web-ui.nether.click/components/css/body.css",
-    "https://web-ui.nether.click/components/css/header.css",
-    "https://web-ui.nether.click/components/css/headings.css",
-    "https://web-ui.nether.click/components/css/main.css",
-    "https://web-ui.nether.click/components/css/header.css",
-    "https://web-ui.nether.click/components/css/footer.css",
-    "https://web-ui.nether.click/components/css/grouped-list.css",
-    "https://web-ui.nether.click/components/css/section.css",
-    "https://web-ui.nether.click/components/css/p.css",
+
     "https://web-ui.nether.click/components/css/a.css",
     "https://web-ui.nether.click/components/css/all.css",
+
+    "https://web-ui.nether.click/components/css/body.css",
+
+    "https://web-ui.nether.click/components/css/cards.css",
+
+    "https://web-ui.nether.click/components/css/footer.css",
+
+    "https://web-ui.nether.click/components/css/header.css",
+    "https://web-ui.nether.click/components/css/headings.css",
+
+    "https://web-ui.nether.click/components/css/main.css",
+
+    "https://web-ui.nether.click/components/css/p.css",
+
+    "https://web-ui.nether.click/components/css/section.css",
+
     "https://web-ui.nether.click/components/css/table.css",
     "https://web-ui.nether.click/components/css/tabs-switching.css",
 ])
@@ -51,8 +58,16 @@ function showHome() {
         <h1>dqnx dev</h1>
         <section>
             <h2>Links</h2>
-            <div class="grouped-list">
-                <button class="item" onclick="showAbout()">About</button>
+            <div class="cards">
+                <div class="card" onclick="showAbout()">
+                    <div class="header">
+                        <img src="img/links-icons/about.svg">
+                        <span class="heading">About</span>
+                    </div>
+                    <div class="body">
+                        <span class="description">Information about who i am and contact information</span>
+                    </div>
+                </div>
             </div>
         </section>
     `)
